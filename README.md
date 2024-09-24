@@ -22,25 +22,29 @@ The objective of this project was to build an Active Directory (AD) environment 
 
 - Installed Windows Server and configured it as a Domain Controller.
 - Created organizational units (OUs) to manage users and computers efficiently.
+  ![Screenshot 2024-09-24 at 1 11 27 PM](https://github.com/user-attachments/assets/fec4d3f2-2a36-4f40-b0cb-cf6371477a16)
+  Ref 1: Organizational unit
+  
 - Established user accounts with varying levels of access to demonstrate GPO applications.
-
-Ref 1: Active Directory Structure
-AD Structure
-
+  ![Screenshot 2024-09-24 at 1 15 10 PM](https://github.com/user-attachments/assets/0d1cc01d-4d1c-4836-8305-defa650722d4)
+  Ref 2: User Account
 
 ### 2. Creating and Applying Group Policy Objects
 
 - Developed multiple GPOs targeting different OUs to enforce security settings.
 - Configured password policies, desktop restrictions, and software installations through GPOs.
-
-Ref 2: GPO Configuration Window
-GPO Configuration
-
+  ![Screenshot 2024-09-24 at 1 43 41 PM](https://github.com/user-attachments/assets/3fb7ad86-313f-4135-9d28-d19d756156df)
+  Ref 3: Enabled Windows Defender Firewall policy
+  ![Screenshot 2024-09-24 at 2 14 19 PM](https://github.com/user-attachments/assets/c622299f-506e-4c6c-95a6-017d4f731a41)
+  Ref 4: Applying password restrictions to organization units
 
 ### 3. Testing GPO Application
 
 - Performed user logins to verify that the applied GPOs were correctly enforced.
-
+  ![Screenshot 2024-09-24 at 2 26 06 PM](https://github.com/user-attachments/assets/354dc883-f029-40d2-86c5-fcff7b13b624)
+  Ref 5: Firewall policy is enforced
+  ![Screenshot 2024-09-24 at 2 28 32 PM](https://github.com/user-attachments/assets/1599146b-e9a3-4fbe-9710-154a3ff7bab9)
+  Ref 6: Password policy is enforced
 
 ## Conclusion
 
